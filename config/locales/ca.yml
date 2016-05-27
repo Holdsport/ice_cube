@@ -1,0 +1,117 @@
+ca:
+  ice_cube:
+    pieces_connector: ', '
+    not: 'excepte %{target}'
+    not_on: 'excepte el %{target}'
+    date:
+      formats:
+        default: '%-d de %B de %Y'
+      month_names:
+      -
+      - Gener
+      - Febrer
+      - Març
+      - Abril
+      - Maig
+      - Juny
+      - Juliol
+      - Agost
+      - Setembre
+      - Octubre
+      - Novembre
+      - Desembre
+      day_names:
+      - Diumenge
+      - Dilluns
+      - Dimarts
+      - Dimecres
+      - Dijous
+      - Divendres
+      - Dissabte
+    times:
+      other: '%{count} vegades'
+      one: '%{count} vegada'
+    until: 'fins el %{date}'
+    days_of_week: '%{segments} %{day}'
+    days_of_month:
+      other: 'els dies %{segments} del mes'
+      one: 'el dia %{segments} del mes'
+    days_of_year:
+      one: 'el dia %{segments}'
+      other: 'els dies %{segments}'
+    at_hours_of_the_day:
+      one: 'a l’hora %{segments}'
+      other: 'a les hores %{segments}'
+    on_minutes_of_hour:
+      one: 'en el minut %{segments}'
+      other: 'en els minuts %{segments}'
+    at_seconds_of_minute:
+      one: 'en el segon %{segments}'
+      other: 'en els segons %{segments}'
+    on_seconds_of_minute:
+      one: 'en el segon %{segments} del minut'
+      other: 'en els segons %{segments} del minut'
+    on_days: '%{days}'
+    each_second:
+      one: Cada segon
+      other: 'Cada %{count} segons'
+    each_minute:
+      one: Cada minut
+      other: 'Cada %{count} minuts'
+    each_hour:
+      one: Cada hora
+      other: 'Cada %{count} hores'
+    each_day:
+      one: Diariamente
+      other: 'Cada %{count} dies'
+    each_week:
+      one: Semanalmente
+      other: 'Cada %{count} setmanes'
+    each_month:
+      one: Mensualmente
+      other: 'Cada %{count} mesos'
+    each_year:
+      one: Anualmente
+      other: 'Cada %{count} anys'
+    'on': 'en %{sentence}'
+    in: 'en %{target}'
+    integer:
+      negative: '%{ordinal} per la cua'
+      literal_ordinals:
+        -1: l’últim
+        -2: el penúltim
+      ordinal: '%{number}%{ordinal}'
+      ordinals:
+        default: º
+        1: r
+        2: n
+        3: r
+        11: è
+        12: è
+        13: è
+    on_weekends: en cap de setmana
+    on_weekdays: en dies laborables
+    days_on:
+      - els diumenges
+      - els dilluns
+      - els dimarts
+      - els dimecres
+      - els dijous
+      - els divendres
+      - els dissabtes
+    on_days: '%{days}'
+    array:
+      last_word_connector: ' i '
+      two_words_connector: ' i '
+      words_connector: ', '
+    string:
+      format:
+        day: '%{rest} %{current}'
+        day_of_week: '%{rest} %{current}'
+        day_of_month: '%{rest} %{current}'
+        day_of_year: '%{rest} %{current}'
+        hour_of_day: '%{rest} %{current}'
+        minute_of_hour: '%{rest} %{current}'
+        until: '%{rest} %{current}'
+        count: '%{rest} %{current}'
+        default: '%{rest} %{current}'
