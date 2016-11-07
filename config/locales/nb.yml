@@ -1,0 +1,116 @@
+nb:
+  ice_cube:
+    pieces_connector: ' / '
+    not: 'ikke %{target}'
+    not_on: 'ikke på %{target}'
+    date:
+      formats:
+        default: '%-d. %B %Y'
+      month_names:
+      -
+      - januar
+      - februar
+      - mars
+      - april
+      - mai
+      - juni
+      - juli
+      - august
+      - september
+      - oktober
+      - november
+      - desember
+      day_names:
+      - søndag
+      - mandag
+      - tirsdag
+      - onsdag
+      - torsdag
+      - fredag
+      - lørdag
+    times:
+      other: '%{count} ganger’
+      one: '%{count} gang'
+    until: 'inntil %{date}'
+    days_of_week: '%{segments} %{day}'
+    days_of_month:
+      other: '%{segments} dag i måneden’
+      one: '%{segments} dag i måneden'
+    days_of_year:
+      other: '%{segments} dag i året'
+      one: '%{segments} dag i året'
+    at_hours_of_the_day:
+      other: på den %{segments} time om dagen
+      one: på den %{segments} time om dagen
+    on_minutes_of_hour:
+      other: på det %{segments} minutt i timen
+      one: på det %{segments} minutt i timen
+    at_seconds_of_minute:
+      other: på det %{segments} sekundet
+      one: på det %{segments} sekund
+    on_seconds_of_minute:
+      other: på det %{segments} sekund i minuttet
+      one: på det %{segments} sekund i minuttet
+    each_second:
+      one: Hvert sekund
+      other: Hvert %{count}. sekund
+    each_minute:
+      one: Hvert minutt
+      other: Hvert %{count}. minutt
+    each_hour:
+      one: Hver time
+      other: Hver %{count}. time
+    each_day:
+      one: Daglig
+      other: Hver %{count}. dag
+    each_week:
+      one: Ukentlig
+      other: Hver %{count}. uke
+    each_month:
+      one: Månedlig
+      other: Hver %{count}. måned
+    each_year:
+      one: Årlig
+      other: Hvert %{count}. år
+    'on': på den %{sentence} på den
+    in: 'i %{target}'
+    integer:
+      negative: '%{ordinal} siste'
+      literal_ordinals:
+        -1: siste
+        -2: nest siste
+      ordinal: '%{number}%{ordinal}'
+      ordinals:
+        default: '.'
+        1: '.'
+        2: '.'
+        3: '.'
+        11: '.'
+        12: '.'
+        13: '.'
+    on_weekends: i helgen
+    on_weekdays: i hverdagen
+    days_on:
+      - søndager
+      - mandager
+      - tirsdager
+      - onsdager
+      - tordager
+      - fredager
+      - lørdager
+    on_days: på %{days}
+    array:
+      last_word_connector: ' og '
+      two_words_connector: ' og '
+      words_connector: ', '
+    string:
+      format:
+        day: '%{rest} %{current}'
+        day_of_week: '%{rest} %{current}'
+        day_of_month: '%{rest} %{current}'
+        day_of_year: '%{rest} %{current}'
+        hour_of_day: '%{rest} %{current}'
+        minute_of_hour: '%{rest} %{current}'
+        until: '%{rest} %{current}'
+        count: '%{rest} %{current}'
+        default: '%{rest} %{current}'
