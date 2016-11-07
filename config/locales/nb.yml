@@ -29,12 +29,12 @@ nb:
       - fredag
       - lørdag
     times:
-      other: '%{count} ganger’
+      other: '%{count} ganger'
       one: '%{count} gang'
     until: 'inntil %{date}'
     days_of_week: '%{segments} %{day}'
     days_of_month:
-      other: '%{segments} dag i måneden’
+      other: '%{segments} dag i måneden'
       one: '%{segments} dag i måneden'
     days_of_year:
       other: '%{segments} dag i året'
